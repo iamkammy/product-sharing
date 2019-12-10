@@ -9,7 +9,7 @@ router.post('/signup', async(req, res) => {
         const token = await obj.getAuthToken();
         sendWelcomeEmail(obj.email, obj.name);
         await obj.save();
-        res.status(201).json({ status: 'success', message: 'Successfully sign up!', token, id: obj.id });
+        res.status(201).json({ status: 'success', message: 'Successfully sign up!', token, _id: obj.id });
     } catch (e) {
         res.status(400).json({ status: 'Failure', message: e.message });
     }
