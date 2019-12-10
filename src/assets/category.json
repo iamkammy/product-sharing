@@ -1,0 +1,16 @@
+[   {
+    "name" : "Phone",
+    "imageUrl" : "/images/categories/phone.png",
+    "type" : "Electronic device"
+    },
+    {
+        "name" : "Laptop",
+        "imageUrl" : "/images/categories/laptop.png",
+        "type" : "Electronic device"
+    },
+    {
+        "name" : "Washing Machine",
+        "imageUrl" : "/images/categories/washing-machine.png",
+        "type" : "Electronic gadgets"
+    }
+]
