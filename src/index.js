@@ -17,7 +17,7 @@ app.use('/users', require('./app/routes/user'));
 app.use('/products', require('./app/routes/product'));
 app.use('/ecommerce', require('./app/routes/ecommerce'));
 app.get('/check', (req,res,next)=> {
-    res.status(200).json({ message : 'Data is get'});
+    res.status(200).json({ message : 'API is working correctly, Data Get'});
 })
 
 app.listen(config.port, () => console.log(`Server is running on ${config.port}`));
